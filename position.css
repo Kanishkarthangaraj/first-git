@@ -1,0 +1,41 @@
+div{
+    width: 170px;
+    height: 170px;
+    display: inline;
+}
+body{
+    background-image: url(KANISHKAR\ T\ .jpg);
+    background-size: contain;
+    background-image: none;
+}
+#one{
+    background-color: black;
+    position: static;
+    top: 10px;
+    
+    color: aliceblue;
+}
+#two{
+    background-color:green;
+    position: relative;
+    top :50px;
+    left:10px;
+}
+#three{
+    background-color: red;
+
+    position: absolute;
+    left: 20px;
+}
+#four{
+    background-color: rgb(15, 209, 57);
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    left: 0%;
+}
+#five{
+    background-color: rgb(143, 53, 53);
+    position: sticky;
+    bottom: 100px;
+}
