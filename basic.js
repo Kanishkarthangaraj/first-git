@@ -46,7 +46,7 @@ let add=(a)=>{
     console.log(a);
 }
 let b=10
-let a=30
+let a=20
 add(a);
 
 
