@@ -26,6 +26,7 @@ body{
 
     position: absolute;
     left: 20px;
+    top: 10px;
 }
 #four{
     background-color: rgb(15, 209, 57);
@@ -37,5 +38,5 @@ body{
 #five{
     background-color: rgb(143, 53, 53);
     position: sticky;
-    bottom: 100px;
+    top: 250px;
 }

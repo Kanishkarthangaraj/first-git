@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading"></h1>
+    <p class="para">p 1</p>
+    <p class="para">p 2</p>
+    <p class="para">p 3</p>
+    <p class="para">p 4</p>
+    <button onclick="myfun()">show animal</button>
+   
+</body>
+<script>
+    //   let animal=["lion","tiger","elephant","godzilla"]
+    //   document.getElementById("heading").innerHTML="animal"
+    //   for(let i=0;i<animal.length;i++){
+    //     document.querySelectorAll(".para")[i].innerHTML=animal[i]
+    //   }
+    function myfun(){
+        const animal=["tiger","lion","elephant","dog"]
+        for(let i=0;i<animal.length;i++){
+         document.getElementsByClassName("para")[i].innerHTML=animal[i]
+      }
+    }
+    </script>
+</html>

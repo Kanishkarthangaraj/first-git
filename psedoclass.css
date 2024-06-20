@@ -1,0 +1,8 @@
+div{
+    width: 100xp;
+    height: 100xp;
+    background-color: black;
+}
+div:hover{
+    background-color: aqua;
+}
