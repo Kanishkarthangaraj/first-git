@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>calculator</h1>
+    <input type="number" placeholder="num1" id="one">
+    <br><br>
+    <input type="number" placeholder="num2" id="two">
+    <br><br>
+    <button onclick="add()">add</button>
+    <button ondblclick="sub()">sub</button>
+    <button onmouseover="mul()">mul</button>
+    <button onkeydown="div()">div</button><br><br>
+    <input readonly id="ans">
+    
+</body>
+<script>
+    function add(){
+        let a=document.getElementById("one").value;
+        let b=document.getElementById("two").value;
+        let c=parseInt(a)+parseInt(b);
+        document.getElementById("ans").value=c;
+    }
+    function sub(){
+        let a=document.getElementById("one").value;
+        let b=document.getElementById("two").value;
+        let c=parseInt(a)-parseInt(b);
+        document.getElementById("ans").value=c;
+    }
+    function mul(){
+        let a=document.getElementById("one").value;
+        let b=document.getElementById("two").value;
+        let c=parseInt(a)*parseInt(b);
+        document.getElementById("ans").value=c;
+    }
+    function div(){
+        let a=document.getElementById("one").value;
+        let b=document.getElementById("two").value;
+        let c=parseInt(a)/parseInt(b);
+        document.getElementById("ans").value=c;
+    }
+    
+    
+</script>
+<style>
+    body{
+        background-color: aquamarine;
+        align-items: center;
+        margin-left: 650px;
+        text-align: center;
+        margin-top: 200px;
+        background-image: url("download.jpeg");
+        background-repeat: no-repeat;
+    }
+    h1{
+        position: relative;
+        top: 50xp;
+        left: 500xp
+    }
+    input{
+        border-color: black;
+        border-style: groove;
+        border-width: 5px;
+
+    }
+    button{
+        background-color: white;
+        color: black ;
+        border-style: dashed;
+    }
+    input:hover{
+        transition-property: all;
+        transition-duration: 2s;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+    button:hover{
+        transition-property: all;
+        transition-duration: 2s;
+        border-radius: 10px;
+        background-color: red;
+    }
+</style>
+</html>
